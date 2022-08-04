@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply bg-gray-600 rounded-full outline-none shadow-gray-400 md:cursor-pointer md:active:bg-gray-800 shadow-md md:transition-[0.3s] md:duration-150 md:active:shadow-none tracking-[0.1rem] px-4 md:px-6 py-2 text-cyan-300;
+    }
+}
